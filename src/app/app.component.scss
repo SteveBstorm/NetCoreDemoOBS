@@ -1,0 +1,24 @@
+.header {
+  top:0;
+  left: 0;
+  position : fixed;
+  background-color: chartreuse;
+  height: 100px;
+  width: 100%;
+}
+
+.nav {
+  height: 80%;
+  top : 100px;
+  left : 0;
+  width: 20%;
+  position: fixed;
+  background-color: salmon;
+}
+
+.content {
+  padding : 15px;
+  top : 100px;
+  left : 20%;
+  position : absolute;
+}

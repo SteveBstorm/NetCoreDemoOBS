@@ -1,0 +1,4 @@
+<p>login works!</p>
+<p>Etat de connexion : {{isConnected}}</p>
+<button (click)="login()" *ngIf="!isConnected">Login</button>
+<button (click)="logout()" *ngIf="isConnected">Logout</button>
